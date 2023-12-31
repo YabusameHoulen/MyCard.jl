@@ -1,0 +1,13 @@
+name = "Card"
+uuid = "df54df3a-ca66-4ae5-a5ec-b9d33b97e9e1"
+authors = ["YabusameHoulen"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]

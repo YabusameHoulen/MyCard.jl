@@ -1,4 +1,4 @@
-module Card
+module MyCard
 # Happy new year
 import Base:isless,show
 

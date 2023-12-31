@@ -1,8 +1,12 @@
 module Card
 # Happy new year
 import Base:isless,show
+
+export SingleCard
+
 ### 按从大到小的顺序
 @enum Suit ♠=4 ♣=3 ❤=2 ♦=1
+
 
 struct SingleCard
     suit::Suit

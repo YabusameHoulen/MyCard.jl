@@ -2,5 +2,5 @@ using Card
 using Test
 
 @testset "Card.jl" begin
-    # Write your tests here.
+    SingleCard(3,4)
 end

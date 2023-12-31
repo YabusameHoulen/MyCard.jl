@@ -2,7 +2,7 @@ module Card
 # Happy new year
 import Base:isless,show
 
-export SingleCard
+export SingleCard,Suit
 
 ### 按从大到小的顺序
 @enum Suit ♠=4 ♣=3 ❤=2 ♦=1
@@ -49,3 +49,4 @@ end
 
 
 end # Card
+

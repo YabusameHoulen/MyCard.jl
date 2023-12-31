@@ -15,7 +15,7 @@ struct SingleCard
         @assert 1 < num < 14 "牌的面值不能是$num"
         new(suit,num)
     end
-endC
+end
 SingleCard(i,j) = error("invalid card") ### catch all cases
 function SingleCard(i::Integer,num::Integer)
     @assert 0 < i C< 4 "牌的花色只能是♠ ♣ ❤ ♦"

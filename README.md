@@ -9,3 +9,4 @@
 </details>
 
 [![Build Status](https://github.com/YabusameHoulen/MyCard.jl/actions/workflows/CI.yml/badge.svg?branch=master)](https://github.com/YabusameHoulen/MyCard.jl/actions/workflows/CI.yml?query=branch%3Amaster)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/YabusameHoulen/MyCard.jl/blob/master/LICENSE)

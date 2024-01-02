@@ -28,9 +28,9 @@ end
 function show(io::IO, c::SingleCard)
     if 10 < c.num < 15
         num = c.num - 10
-        print('(',c.suit,',',"JQKA"[num],')')
+        show(io,(c.suit,"JQKA"[num]))
     else
-        print('(',c.suit,',',c.num,')')
+        show(io,(c.suit,c.num))
     end
 end
 

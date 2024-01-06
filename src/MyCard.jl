@@ -1,7 +1,7 @@
 module MyCard
 # Happy new year
-import Base: isless, show, (:-)
-import Base: convert, zero, (:+)
+import Base: isless, show, (-)
+import Base: convert, zero, (+)
 import Base: rem
 
 export SingleCard
